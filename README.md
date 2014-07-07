@@ -1,4 +1,4 @@
-BadgeOS BuddyPress Notifier
+dgeOS BuddyPress Notifier
 =========
 
 Version
@@ -13,8 +13,10 @@ A simple WordPress plugin to enable BuddyPress notifications when a user reaches
 Requirements
 -------------
 
-* WordPress 3.4.2+
-* Tested on WordPress 3.9.1 Multisite (Latest as of 07 Jul 14)
+* WordPress 3.4.2+ (Tested on WordPress 3.9.1 Multisite [latest])
+* BuddyPress
+* BadgeOS
+* BadgeOS Community Add-on (free)
 
 Installation
 --------------
@@ -33,3 +35,6 @@ License
 ----
 
 GPLv2
+
+
+***Free Software, Hell Yeah!***
