@@ -68,8 +68,13 @@ class BP_Badge_Notifier extends BP_Component {
 		if ( 'step' == $type ) {
 			return false;
 		}
-		
-		bp_core_add_notification( $achievement_id, $user_id, $this->id, 'new_badge_' . $user_id . "_" . $achievement_id  );
+		$args = array(
+			'item_id' => $achievement_id,
+			'user_id' => $user_id,
+			'component_name' => $this->id,
+			'component_action' => 'new_badge_' . $user_id . "_" . $achievement_id,
+		);
+		bp_notifications_add_notification($args);
 	}
 	
 	/**
