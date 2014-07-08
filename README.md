@@ -29,7 +29,7 @@ git clone [git-repo-url]
 
 Todo
 --------------
-* Stop using `bp_core_add_notification` as it is now depreciated. Must start using `bp_notifications_add_notification`.
+* <strike>Stop using `bp_core_add_notification` as it is now depreciated. Must start using `bp_notifications_add_notification`.</strike>
 
 License
 ----
