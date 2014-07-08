@@ -1,4 +1,4 @@
-dgeOS BuddyPress Notifier
+BadgeOS BuddyPress Notifier
 =========
 
 Version
